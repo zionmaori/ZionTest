@@ -1,18 +1,26 @@
 Answers:
+
+
 1.
 	a. Size of node Standard_D4s_v3 , with approx 5 nodes , will use 3 diff nodepools we want to differnt the db from the appliactions and monitoring
 	b. Price for monthly static pods:
 	* East US $70.08
-	  * West US $85.41
+	* West US $85.41
 	c. cpu in 10% growth in 3 months is  approx 35 CPUs 
 	memory in 10% growth in 3 months is approx 96 GB
 
 
 2.
-	Calculations provided
+
+
 	tools used to calculate:
+
 	https://azure.microsoft.com/en-us/pricing/calculator/?service=kubernetes-service
+
 	https://learnk8s.io/kubernetes-instance-calculator#what-s-the-maximum-number-of-pods-in-aks-
+------------------------------------------------------------------------------ 
+  
+	Calculations provided:
 	number of pods*CPUs/Ram
 	
 	Backend:
