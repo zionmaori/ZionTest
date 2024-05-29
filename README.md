@@ -18,6 +18,10 @@ Answers:
 	https://azure.microsoft.com/en-us/pricing/calculator/?service=kubernetes-service
 
 	https://learnk8s.io/kubernetes-instance-calculator#what-s-the-maximum-number-of-pods-in-aks-
+
+	https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
+
+
 ------------------------------------------------------------------------------ 
   
 	Calculations provided:
