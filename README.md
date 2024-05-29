@@ -69,5 +69,9 @@ Answers:
 	n=3 
 	CPU month = 26.4 * (1 + 0.10)**n
 	Ram  = 26.4 * (1 + 0.10)**n  
-	
-	
+
+
+3. As explained int the drawing added to git  , i will seperate the db and storage pods and use dedicated storage and db .
+   As for k8s kubernetes i will apply HPA to scale the pods up and the down in case needed.
+   For a step of security and correct way of balancing will apply load balancer between FE->BE->DATA 
+   
