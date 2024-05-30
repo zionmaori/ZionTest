@@ -1,3 +1,14 @@
+
+
+scripts :
+
+1-2: aks-1-1.sh
+
+for 3,4 run chmod +x script_name to run 
+
+3: get_ingress.sh
+4: update_sts.sh
+
 Answers:
 
 
@@ -18,6 +29,8 @@ Answers:
 	https://azure.microsoft.com/en-us/pricing/calculator/?service=kubernetes-service
 
 	https://learnk8s.io/kubernetes-instance-calculator#what-s-the-maximum-number-of-pods-in-aks-
+
+	chatGPT
 ------------------------------------------------------------------------------ 
   
 	Calculations provided:
@@ -71,7 +84,7 @@ Answers:
 	Ram  = 26.4 * (1 + 0.10)**n  
 
 
-3. As explained int the drawing added to git  , i will seperate the db and storage pods and use dedicated storage and db .
+3. As explained in the drawing added to git  , i will seperate the db and storage pods and use dedicated storage and db .
    As for k8s kubernetes i will apply HPA to scale the pods up and the down in case needed.
    For a step of security and correct way of balancing will apply load balancer between FE->BE->DATA 
    
